@@ -1,0 +1,50 @@
+
+body {
+	margin: 50px 0px;
+	padding: 0px;
+	text-align:center;
+}
+
+h1 {
+	color:black;
+
+}
+
+h2 {
+	color:red;
+	background-color:black;
+}
+
+h3 {
+	color:orange;
+}
+
+.content {
+	color:black;
+	background-color: white;
+	}
+
+.term {
+	color:black;
+	font-weight:bold;
+}
+
+.bold {
+	font-weight:bold;
+}
+.italic {
+	font-style:italic;
+}
+
+.lesson {
+	background-color: #294880;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px auto;
+
+/*  This is frozen for later use
+li {
+	font-size: 10px;
+	line-height: 44px;
+}
+/*

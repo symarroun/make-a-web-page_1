@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Intro 2 Programming by Safi</title>
+    <link rel="stylesheet" type="text/css" href="stage1_safi.css">
+
+  </head>
+  
+<body>
+  <p> <img class="cover" src="http://www.rockintuit.com/img/icons/html-5-icon.png" alt=":("> </p>
+
+<h1 id="up2toc"> Table of Content </h1>
+  <div class="TOC">
+    <ul>
+      <li> <a href="#sec-1">Thinking Lenses</a></li>
+      <li> <a href="#sec-2"> HTML & CSS </a> </li>
+      <li> <a href="#sec-3"> Understanding Document Code </a> </li>
+       <li> <a href="sec-4">HTML "Classes" and Avoiding Repetition </a> </li>
+      <li> <a href="#sec-5"> Helpful Tools </a></li>
+      <li> <a href="#sec-6"> Terms </a></li>
+      <li> <a href="#sec-7"> Notes For You </a></li>
+      <li> <a href="#sec-8"> Acronyms & Abbreviations</a></li>
+      <li> <a href="#sec-9"> Resources </a></li>
+    </ul>
+  </div>
+
+  <h1> Introduction to Programming </h1>
+<div class="lesson">
+    <div class="content"> 
+    As a beginner in programming, it is important to understand the available resources, tools and software and how they all relate to each other. For example, what is Python, and how is it related to HTML? well, what does HTML stand for? and so forth.
+    In the programming world, there are plenty of concepts that <span class="bold">seem</span> to most people as seperate concepts. However, they are connected in one way or another. Some of those concepts are the user, browser, internet, http, and the servers. What is each one has to do with the other? Well, each part is in one way or another is an essential component for the full convinient experience of the internet surfing. 
+    The user uses the browser to interact with web-based application. The browser displays the data available on the internet.
+    </div>
+    
+  <h2 id="sec-1"> Thinking Lenses </h2>
+    <div class="content">
+    As a programmer, you have to develop specific thinking lenses that you will alternate between as you are creating your code. Each len has its advantages for each stage of the coding process. The lenses are as follow:
+    </div>
+  <h3>1. Procedural Thinking</h3>
+    <div class="content">Like saying, (1) ..., (2) ..., (3) ..., and so on. </div>
+
+  <h3>2. Abstract Thinking</h3>
+    <div class="content">Like saying, 1 + 1 = 2 </div>
+
+  <h3>3. Systematic Debugging</h3>
+    <div class="content">Like saying, The problem is ..., and the possible causes coule be ...</div>
+
+  <h3>4. Technological Empathy </h3>
+    <div class="content">This is the lens where the user get to understand how the computer sees things.</div>
+
+  <h3>5. Systems Thinking</h3>
+    <div class="content">This is the most important lens. This lens helps breaking down big ideas into component pieces.
+<br><a href="#up2toc"> Up To Table of Content </a>  </div>
+
+  <h2 id="sec-2"> HTML & CSS </h2>
+  <div class="content">
+    HTML stands for Hypertext Markup Language while CSS stands for Cascading Style Sheet. HTML is primarily used for structuring the document code as well as inputing the content. On the other hand, the CSS is useful for how the content is being presented on the website. Note that styling can be done within the HTML code. However, it is preferred to coding style in a seperate file ".css" then link it to ".html".
+    <h3> Typical HTML Document Structure </h3>
+      <xmp><! Doctype HTML></xmp>
+        <xmp><html></xmp>
+          <xmp><head></xmp>
+            <xmp><title>TheTitle</title></xmp>
+          <xmp></head></xmp>
+          <xmp><body></xmp>
+            The Content along with its elements and tags
+          <xmp></body></xmp>
+        <xmp></html></xmp>   
+  </div>
+  
+  <img src="http://www.w3schools.com/css/selector.gif" alt="broken">
+
+    <h3>  HTML Elements Attributes</h3>
+     <div class="content">
+      Some elements requires attribues to be added within a tag. For example, an images needs to be directed to its source and a link (URL) should be referenced to its URL link. The attribute is included in the opening tag in this form: <br>
+       &lt a href="URL" &gt Content </a>. In other words, an element with an attribute with have the following components: Within the opening tag (an attribute name, a value), and content followed by a closing tag where appropriate.
+      
+<br><br><a href="#up2toc"> Up To Table of Content </a>
+        </div>
+
+    <h2 id="sec-3"> Understanding Document Code <span class="italic">Structrue</span> ( Div and Span )</h2>
+        <div class="content">
+        Before getting into what a structure means here, it is important to understand the relationships between the lines of codes. e.g. a child, a parent, or a sibling.
+        Structuring a document with indentation within the code does not tell HTML anything since the whitespace is ignored. Thus, the tags <xmp><div></div></xmp> & <xmp><span></span></xmp> are widely used for the purpose of structuring the document. <br>
+        Now, the <b>div</b> tag also plays an important role when linking CSS with an HTML file. The div tag is used as a selector when defining a class for it. For example, in my HTML code I would write an attribute "class" in my <b>div</b> tag and add the value (string) while will be referenced in the CSS code in order to style it.
+        
+<br><a href="#up2toc"> Up To Table of Content </a>
+        </div>
+
+    <h2 id="sec-4"> HTML "Classes" and Avoiding Repetition </h2>
+        <div class="content">
+        If you wondered why do we use CSS for styling while it is possible to do so in HTML. Well, there are several benefits for doing so. 
+          <ol>
+            <li> Most importantly is the idea of avoiding repetition within the code. </li>
+            <li> Focusig on the content within the HTML code helps making the presentation better later on</li>
+            <li> Linking multiple .css files to one HTML comes in handy when working on a full website. This also helps to simply apply different .css for the same .html depending on which device (i.e. laptop, phone, or tablet) the web page is being viewed from. </li>
+          </ol>
+        
+<a href="#up2toc"> Up To Table of Content </a>
+        </div>
+
+  <h2 id="sec-5"> Helpful Tools </h2>
+    <div class="content"> There are plenty of tools out there that could be used to make both the learning process easier as well as the advanced coding process. Some the best tools out there as a learner are <a href="scratchpad.io">ScratchPad.io</a>, and <a href="codepen.io">CodePen.io</a>
+    </div>
+
+    <h3> ScratchPad </h3> 
+      <div class="content">This is a great tool for learners. It is an online based tool which display how the code looks like as you are coding. I have been using it, and it's awesome!</div>
+
+    <h3> CodePen </h3>
+     <div class="content">CodePen is similar to ScratchPad but with more features. Check this both.</div>
+
+    <h3> Syntax </h3>
+      <div class="content">There are helpful websites where they inspect your syntax for validation.
+        <ul>
+          <li> Syntax Validation for HTML <a href="http://validator.w3.org">[click].</a></li>
+          <li> Syntax Validation for CSS <a href="http://jigsaw.w3.org/css-validator/#validate_by_input">[click].</a></li>
+        </ul>
+<a href="#up2toc"> Up To Table of Content </a>
+      </div>
+
+<div class="terms-sec">
+  <h2 id="sec-6"> Terms </h2>
+    <span class="term"> HTML Element: </span>
+    <div class="content"> Elements types are indicated by HTML tags. Tags are written like this &lt &gt and a letter in between indicating what tag it is. Each element has an opening tag and a closing tag; Except some element like the ones for an image <img>. The element without closing tags are referred to as an element with a void tag. <br>
+    Elements are divided in two main categories: <b>Inline </b> and <b> Block</b>.
+      <ul>
+        <li>Inline Elements: a, span, br, img, strong </li>
+        <li> Block elements: div, p, form </li>
+      </ul> </div><br>
+  <b> <span class="term">Web Page:</span></b>
+        <div class="content"> A web page is a text document written in a language called HTML. Web browsers read these documents, and then interpret and display them. 
+        </div> <br>
+  <b> <span class="term">World Wide Web (WWW) </span> </b> <br>
+       <div class="content"> 
+        The World Wide Web is a collection of HTML documents which are connected through this web. </div> <br>
+      <b><span class="term">Tags </span></b> <br>
+      <div class="content"> Keep in mind that if a tag is not closed, everything after the tag is activated by that tag. Yes, computers are stupid. They do exactly what <b> YOU </b> tell them to do. Thus, be careful about how you communicate with a computer and understand how it understands you :).
+      <ul>
+        <li><xmp><i> & <em> : Both make the content italics. However, emphasis <em> is becoming more pupolar for advanced coding reasons </xmp></li>
+        <li><xmp><b> & <strong> : bold vs. strong, they both bold the word. </xmp></li>
+      </ul> </div>
+
+<a href="#up2toc"> Up To Table of Content </a>
+</div>
+
+  <h2 id="sec-7"> More Notes For You </h2>
+  <div class="content">
+    1. The <b> WhiteSpace </b> in the coding side has no effect on the output in the display screen for users. <br>
+    2. <strong>Write comments within a code script</strong> is helpful for you when you look back at your code as well as for anyone else who might be looking at your code. This can be done by typing your comment in the following format: <br>
+      <xmp><!-- comment--> </xmp>
+
+<br><a href="#up2toc"> Up To Table of Content </a>
+  </div>
+
+  <h2 id="sec-8">Acronyms & Abbreviations</h2>
+    <div class="content">
+     <ul>
+      <li> HTML: HyperText Markup Language </li>
+      <li> WWW: World Wide Web </li>
+     </ul>
+    </div>
+
+  <h2> Tags </h2>
+       <div class="content">
+          b:   <b>b</b>old, 
+          em:  <b>em</b>phasis,
+           a:   <b>a</b>nchor,
+         br:  line <b>br</b>eak,
+         p:   <b>p</b>aragraph,
+         h1: <b>h</b>eader <b>1</b>.
+    
+<br><a href="#up2toc"> Up To Table of Content </a>
+      </div>
+
+  <h2 id="sec-9">Resources</h2>
+    <div class="content">
+      Andy's Website <a href="www.learn-2-code.appspot.com"> Andy's Website </a>
+    
+<br><a href="#up2toc"> Up To Table of Content </a>
+    </div>
+</div>
+</body>
+</html>
